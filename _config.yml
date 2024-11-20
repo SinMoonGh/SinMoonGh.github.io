@@ -33,21 +33,21 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: MyeongHoonSin
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: 
+  # - title: twitter
+  #   url: 
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: 
+  # - title: bitbucket
+  #   url: 
   - title: github
     url: https://github.com/SinMoonGh
   - title: velog
@@ -55,11 +55,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 진주시 가좌동 진주대로
+  #- line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '해당 웹 사이트는 <a href="http://startbootstrap.com">Bootstrap</a>을 이용해서 포토폴리오용으로 제작되었습니다.'
 
 # Build settings
 markdown: kramdown
