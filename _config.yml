@@ -1,11 +1,11 @@
 # Site settings
 title: Backend Developer
 name : 신명훈
-email: your-email@domain.com
+email: tity0009@naver.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "향수 추천 웹사이트(Franding)에서 장바구니에 상품 담기 기능 및 향수 추천과 검색 기능을 담당하였습니다. 검색 기능의 속도를 개선시기키 위해서 redis 서버를 이용하였으며, 향수 추천 기능에서 rag를 이용하여 상품 추천 시 정확도를 높이기 위해 노력했습니다."
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -26,8 +26,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: 18bc9c #18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -41,15 +41,17 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: 
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: 
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: 
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/SinMoonGh
+  - title: velog
+    url: https://velog.io/@fishing_bear99/posts
 
 # Postal address (add as many lines as necessary)
 address:
