@@ -50,8 +50,10 @@ social:
   #   url: 
   - title: github
     url: https://github.com/SinMoonGh
-  - title: velog
+    type: brands
+  - title: blog
     url: https://velog.io/@fishing_bear99/posts
+    type: solid
 
 # Postal address (add as many lines as necessary)
 address:

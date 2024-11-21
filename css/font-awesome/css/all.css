@@ -26,7 +26,8 @@
   font-style: normal;
   font-variant: normal;
   line-height: 1;
-  text-rendering: auto; }
+  text-rendering: auto; 
+}
 
 .fa-1x {
   font-size: 1em; }
@@ -1108,8 +1109,8 @@ readers do not read off random characters that represent icons */
 .fa-blender-phone::before {
   content: "\f6b6"; }
 
-.fa-blog::before {
-  content: "\f781"; }
+/* .fa-blog::before {
+  content: "\f781"; } */
 
 .fa-bold::before {
   content: "\f032"; }
