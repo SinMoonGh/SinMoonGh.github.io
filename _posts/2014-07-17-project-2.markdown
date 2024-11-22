@@ -4,6 +4,7 @@ modal-id: 2
 date: 2024-11-2
 img: woowa.png
 alt: image-alt
+title: woowa-precourse
 project-date: 2024-10-15 ~ 2024-11-12
 client: 1명
 category:
