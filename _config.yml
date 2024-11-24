@@ -3,8 +3,7 @@ title: Backend Developer
 name : 신명훈
 email: tity0009@naver.com
 url: https://github.com/SinMoonGh
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "신명훈의 포트폴리오"
 # skills: "python과 Django를 이용하여 팀원들과 함께 이커머스 플랫폼 사이트를 제작하였습니다. PostgreSQL를 사용하여 데이터를 처리하였고,  
 # 프론트로 html, CSS, JS를 사용하면서 얻은 기술로 react까지 사용해 본 경험이 있습니다. "
 meta_author: MyeongHoon Sin
