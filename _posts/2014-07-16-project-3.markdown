@@ -9,7 +9,7 @@ project-date: 2024-07 ~ 2024-08
 client: 6명
 category:
     name: GymBym
-    url: https://github.com/SinMoonGh/fork_GYMVYM
+    url: https://github.com/SinMoonGh/GYMVYM.git
 # additional-materials:
 #     name: gym-bym
 #     url: https://docs.google.com/presentation/d/1BvGqBKwh1_LuIxenjcwKlDQDlcaW7gkMz7thZd-6ADA/edit?usp=sharing
