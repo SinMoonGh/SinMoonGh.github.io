@@ -1,0 +1,58 @@
+<!-- Simple Project Modals -->
+{% for project in site.data.simple-project %}
+<div class="portfolio-modal modal fade" id="simpleProjectModal-{{ project.modal-id }}" tabindex="-1" role="dialog"
+    aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ project.name }}</h2>
+                        <hr class="star-primary">
+                        <img src="img/simple-project/{{ project.img }}"
+                            class="img-responsive img-centered portfolio-img" alt="{{ project.alt }}">
+                        {% if project.description %}
+                        <p>{{ project.description }}</p>
+                        {% endif %}
+                        <ul class="list-inline item-details">
+                            {% if project.client %}
+                            <li>Team Member:
+                                <strong>{{ project.client }}</strong>
+                            </li>
+                            {% endif %}
+                            {% if project.project-date %}
+                            <li>Date:
+                                <strong>{{ project.project-date }}</strong>
+                            </li>
+                            {% endif %}
+                            {% if project.category %}
+                            <li>Git hub:
+                                <strong>
+                                    <a href="{{ project.category.url }}" target="_blank">{{ project.category.name }}</a>
+                                </strong>
+                            </li>
+                            {% endif %}
+                            {% if project.additional-materials %}
+                            <li>상세히 살펴보기:
+                                <strong>
+                                    <a href="{{ project.additional-materials.url }}" target="_blank">{{
+                                        project.additional-materials.name }}</a>
+                                </strong>
+                            </li>
+                            {% endif %}
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
