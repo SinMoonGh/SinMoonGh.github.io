@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #18bc9c
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -64,23 +64,23 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #18bc9c
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #2c3e50
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #2c3e50;
+    background-color: #fff
 }
 
 .img-centered {
     margin: 0 auto;
 }
 
-.portfolio-img{
+.portfolio-img {
     width: 100%;
     height: 350px;
 }
@@ -88,7 +88,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #18bc9c
 }
 
 header .container {
@@ -104,7 +104,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -155,7 +155,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -187,7 +187,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #18bc9c
 }
 
 @media(max-width:767px) {
@@ -217,7 +217,8 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+
+    background: rgba(24, 188, 156, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -260,24 +261,27 @@ section.success {
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-between;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-between;
     }
+
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
+        flex: 1 0 49%;
+        max-width: 49%;
     }
-  }
-  @media (min-width: 960px) {
+}
+
+@media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+        flex: 1 0 32%;
+        max-width: 32%;
     }
-  }
-  /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
+}
+
+/* A large grid might need four columns on widescreen layouts */
+/* @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
       max-width: 23.5%;
@@ -298,9 +302,10 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #18bc9c;
     background: #fff;
 }
+
 
 .floating-label-form-group {
     position: relative;
@@ -319,7 +324,7 @@ section.success {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -331,13 +336,13 @@ section.success {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
+    /* vertical-align: middle;
+    vertical-align: baseline; */
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -351,7 +356,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #18bc9c
 }
 
 form .row:first-child .floating-label-form-group {
@@ -368,7 +373,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2c3e50
 }
 
 footer .footer-col {
@@ -377,7 +382,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #233140
 }
 
 .btn-social {
@@ -461,7 +466,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2c3e50;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -471,14 +476,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2c3e50;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #233140 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -489,18 +494,29 @@ footer .footer-below {
 }
 
 .profile-pic {
-    width: 256px; /* 이미지 너비 설정 */
-    height: 256px; /* 이미지 높이 설정 */
-    border-radius: 50%; /* 원형으로 만들기 */
-    object-fit: cover; /* 이미지가 잘리지 않고 꽉 채워지도록 */
-    border: 2px solid #ccc; /* 테두리 (선택 사항) */
-    display: block; /* 이미지 정렬 (선택 사항) */
-    margin: 0 auto; /* 중앙 정렬 (선택 사항) */
+    width: 256px;
+    /* 이미지 너비 설정 */
+    height: 256px;
+    /* 이미지 높이 설정 */
+    border-radius: 50%;
+    /* 원형으로 만들기 */
+    object-fit: cover;
+    /* 이미지가 잘리지 않고 꽉 채워지도록 */
+    border: 2px solid #ccc;
+    /* 테두리 (선택 사항) */
+    display: block;
+    /* 이미지 정렬 (선택 사항) */
+    margin: 0 auto;
+    /* 중앙 정렬 (선택 사항) */
 }
 
 .portfolio-pic {
-    width: 100%; /* 이미지 크기를 컨테이너에 맞춤 */
-    height: 300px; /* 비율 유지 */
-    border-radius: 50%; /* 원형으로 만들기 */
-    object-fit: cover; /* 이미지를 컨테이너에 꽉 채우기 */
+    width: 100%;
+    /* 이미지 크기를 컨테이너에 맞춤 */
+    height: 300px;
+    /* 비율 유지 */
+    border-radius: 50%;
+    /* 원형으로 만들기 */
+    object-fit: cover;
+    /* 이미지를 컨테이너에 꽉 채우기 */
 }
