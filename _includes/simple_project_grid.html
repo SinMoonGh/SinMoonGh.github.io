@@ -3,9 +3,23 @@
     <div class="container simple-project-flex-grid">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Simple Projects</h2>
+                <h2>Simple Project</h2>
                 <hr class="star-primary">
             </div>
+        </div>
+        <div class="simple-project-flex-row">
+            {% for post in site.data.simple-project %}
+            <div class="simple-project-flex-item simple-project-item">
+                <a href="#simple-projectModal-{{ post.modal-id }}" class="simple-project-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/simple-project/{{ post.img }}" class="simple-project-pic" alt="{{ post.alt }}">
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
